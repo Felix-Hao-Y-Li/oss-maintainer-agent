@@ -1,0 +1,16 @@
+[project]
+name = "oss-maintainer-agent"
+version = "0.1.0"
+description = "An AI assistant for open-source maintainers: issue triage and repo Q&A with citations."
+readme = "README.md"
+authors = [
+    { name = "LI YUNHAO", email = "1779551322@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.2.4",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.4,<0.12.0"]
+build-backend = "uv_build"

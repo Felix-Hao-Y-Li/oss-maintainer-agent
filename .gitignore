@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# 密钥：GitHub token、DeepSeek key 只放在 .env，永远不提交
+.env
+
+# 原始数据：拉下来的 issue、clone 的目标仓库、SQLite 库、统计结果都不进仓库。
+# 只提交拉取脚本，别人照着脚本自己拉。
+data/
+# Milvus 的数据卷目录（compose 默认挂在 ./volumes）
+volumes/
+
+# 编辑器
+.vscode/
+.idea/
